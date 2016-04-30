@@ -1,0 +1,6 @@
+{
+  "name": "学习笔记2016/04/30",
+  "tagline": "技术博客第四课",
+  "body": "回顾：     \r\n方法参数：方法内处理逻辑必须的数据    \r\n参数仅限方法内部使用  方法外无法访问方法的参数变量  (值传递)    \r\n参数名称 自定义！  \r\n返回值：调用者是否需要获得方法的执行结果   \r\nfunction add（a,b）{    \r\n  var sum=a+b;    \r\n  return sum;    \r\n}    \r\n调用：   \r\nadd（5,10）;   \r\n \r\nvar a=5;   \r\nvar b=10;  \r\nvar r=add(a,b);  \r\n\r\nconsole.log(sum);//RefError  ",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
